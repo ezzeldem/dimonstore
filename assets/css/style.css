@@ -1159,5 +1159,11 @@ span {
   .accessories-slider .product-box .product-name-link {
     text-align: center;
   }
+  .scond-box .big-box {
+    height: 308px;
+  }
+  .scond-box .big-box .text-box .section-title .min-title {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
