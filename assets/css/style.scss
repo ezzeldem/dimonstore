@@ -1031,6 +1031,9 @@ span {
   .nav-section {
       z-index: 9999999;
       background-color: rgba($dark-color, 1);
+      &:hover{
+          background-color: rgba($dark-color, 1)
+      }
       .logo-box {
           .logo-link {
               img {
@@ -1059,6 +1062,7 @@ span {
           left: 0;
           padding: 10px;
           right: 0;
+          height: unset;
           top: 60px;
           background-color: rgba($dark-color, 1);
           display: none;

@@ -150,8 +150,8 @@ span {
   background-color: white;
   -webkit-transition: opacity 0.6s linear, background-color 0.4s ease-in-out, color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
   transition: opacity 0.6s linear, background-color 0.4s ease-in-out, color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  transition: opacity 0.6s linear, transform 0.4s ease-in-out, background-color 0.4s ease-in-out, color 0.4s ease-in-out;
-  transition: opacity 0.6s linear, transform 0.4s ease-in-out, background-color 0.4s ease-in-out, color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  transition: opacity 0.6s linear, transform 0.4s ease-in-out, background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  transition: opacity 0.6s linear, transform 0.4s ease-in-out, background-color 0.4s ease-in-out, color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 .product-box .img-box .icon-box a:hover {
@@ -1106,6 +1106,9 @@ span {
     z-index: 9999999;
     background-color: #070707;
   }
+  .nav-section:hover {
+    background-color: #070707;
+  }
   .nav-section .logo-box .logo-link img {
     height: 42px;
     padding: 10px 0;
@@ -1130,6 +1133,7 @@ span {
     left: 0;
     padding: 10px;
     right: 0;
+    height: unset;
     top: 60px;
     background-color: #070707;
     display: none;
