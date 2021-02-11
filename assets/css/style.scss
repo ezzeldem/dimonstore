@@ -50,7 +50,7 @@ span {
   padding: 0 0 30px;
   .min-title {
     color: rgba($black-color, 1);
-    font-size: 62px;
+    font-size: 45px;
     margin: 20px 0;
   }
   .sub-title {
@@ -623,6 +623,9 @@ span {
       }
     }
     .text-box {
+      display: flex;align-items: center;
+      height: 100%;
+      justify-content: center;
       @extend.trans-4;
       width: 50%;
       padding: 80px 20px;
@@ -634,6 +637,10 @@ span {
       .link-box {
         a {
           background-color: rgba($min-color, 1);
+          &:hover{
+            background-color: rgba($black-color, 1);
+            color: rgba($white-color, 1);
+          }
         }
       }
     }
