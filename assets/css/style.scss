@@ -941,13 +941,13 @@ span {
         a {
           border: 1px solid $dark-color;
           @extend.trans-4;
-          padding: 15px 5px;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           i {
-            display: inline-block;
-            width: 40px;
-            height: 40px;
             color: $dark-color;
-            line-height: 40px;
             @extend.trans-4;
           }
           &:hover {
