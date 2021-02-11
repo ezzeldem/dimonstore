@@ -226,12 +226,6 @@ span {
   }
 }
 
-.fixed-box {
-  background-color: rgba($dark-color, 1);
-  box-shadow: -2px 5px 49px 11px rgba($black-color, 0.7);
-  position: fixed !important;
-  top: 0;
-}
 
 // link-box
 .link-box {
@@ -266,12 +260,13 @@ span {
   width: 100%;
   @extend.trans-4;
   padding: 12px;
-  background-color: rgba($black-color, 0.8);
+  background-color: rgba($gray-color, 0.5);
   &.fixed-box {
     padding: 10px 0;
-    &:hover {
-      background-color: rgba($black-color, 1);
-    }
+    background-color: rgba($dark-color, 1);
+    box-shadow: -2px 5px 49px 11px rgba($black-color, 0.7);
+    position: fixed !important;
+    top: 0;
   }
   .logo-box {
     img {

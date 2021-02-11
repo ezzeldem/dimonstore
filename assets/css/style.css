@@ -252,14 +252,6 @@ span {
   background-color: #d2aa5c;
 }
 
-.fixed-box {
-  background-color: #070707;
-  -webkit-box-shadow: -2px 5px 49px 11px rgba(0, 0, 0, 0.7);
-          box-shadow: -2px 5px 49px 11px rgba(0, 0, 0, 0.7);
-  position: fixed !important;
-  top: 0;
-}
-
 .link-box {
   margin: 20px 0;
 }
@@ -288,15 +280,16 @@ span {
   z-index: 22;
   width: 100%;
   padding: 12px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(61, 61, 61, 0.5);
 }
 
 .nav-section.fixed-box {
   padding: 10px 0;
-}
-
-.nav-section.fixed-box:hover {
-  background-color: black;
+  background-color: #070707;
+  -webkit-box-shadow: -2px 5px 49px 11px rgba(0, 0, 0, 0.7);
+          box-shadow: -2px 5px 49px 11px rgba(0, 0, 0, 0.7);
+  position: fixed !important;
+  top: 0;
 }
 
 .nav-section .logo-box img {
@@ -1244,4 +1237,3 @@ span {
     font-size: 16px;
   }
 }
-/*# sourceMappingURL=style.css.map */
