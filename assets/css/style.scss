@@ -322,13 +322,12 @@ span {
           position: absolute;
           top: 50px;
           width: 795px;
-          left: -50px;
+          left: -145px;
           padding: 40px 20px;
           background-color: rgba($white-color, 1);
           transition: 0.2s all ease-in-out;
-            opacity: 0;
-              visibility: hidden;
-
+          opacity: 0;
+          visibility: hidden;
           ul {
             display: flex;
             justify-content: space-between;
@@ -1018,10 +1017,11 @@ span {
 
 @media (max-width: 1220px) {
   .nav-section {
-    .nav-box2{ .nav-side-box{
-        margin:  0 5px;
+    .nav-box2 {
+      .nav-side-box {
+        margin: 0 5px;
+      }
     }
-}
     .nav-ul {
       ul {
         li {
