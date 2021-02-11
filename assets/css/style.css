@@ -288,10 +288,7 @@ span {
   z-index: 22;
   width: 100%;
   padding: 12px;
-}
-
-.nav-section:hover {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .nav-section.fixed-box {
